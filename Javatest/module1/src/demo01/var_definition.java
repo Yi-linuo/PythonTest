@@ -7,7 +7,7 @@ package demo01;
                           布尔型(boolean)
             2.引用数据类型:类 数组 接口 枚举 注解
  */
-public class variable_definition {
+public class var_definition {
     public static void main(String[] args) {
         //byte
         byte num1 = 100;
@@ -26,11 +26,16 @@ public class variable_definition {
         long num4 = 1000000L;
         System.out.println(num4);
 
-        //float 定义的变量后面加F
+        /*
+            float和double实际开发之中不要直接参加运算
+            直接参与运算会有精度损失问题
+         */
+
+        //float 定义的变量后面加F 单精度 表示7位小数
         float num5 = 2.5F;
         System.out.println(num5);
 
-        //double 小数的默认类型
+        //double 小数的默认类型 双精度 表示16位小数
         double num6 = 3.4;
         System.out.println(num6);
 
