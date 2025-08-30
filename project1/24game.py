@@ -57,6 +57,7 @@ def generate_expressions(nums):
     op_combinations = itertools.product(['+', '-', '*', '/'], repeat=3)
     expressions = []
 
+
     # 五种括号组合结构
     structures = [
         "({} {} ({} {} {})) {} {}",  # a op1 (b op2 c) op3 d
